@@ -31,9 +31,7 @@ body {
   margin: 0 !important;
   padding: 0 !important;
   font-family: Playfair Display, serif;
-}
-.card-color {
-  background-color: #38817a;
+  background-color: #8c8279 !important;
 }
 
 .card-title {
@@ -61,4 +59,17 @@ body {
 
 #about {
   font-family: Playfair Display, serif !important;
+}
+
+.footer-color {
+  background-color: #38817a;
+  color: #f5f5dc;
+}
+
+.btn {
+  background-image: linear-gradient(to bottom, #265a54, #548c86);
+}
+.btn:hover {
+  background-image: linear-gradient(to bottom, #548c86, #265a54);
+  color: #3d3d29 !important;
 }
